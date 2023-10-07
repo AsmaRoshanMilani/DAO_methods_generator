@@ -1,0 +1,17 @@
+package sample.dao;
+
+public interface <Capital entity name>Dao {
+
+    // DAO methods for  <entity name> entity
+   public void add<Capital entity name>(<Capital entity name> <entity name>);
+   public void update<Capital entity name>(<Capital entity name> <entity name>);
+   public void delete<Capital entity name>(<Capital entity name> <entity name>);
+ }
+public class <Capital entity name>DAOImp implements <Capital entity name>DaO {
+
+   public void add<Capital entity name>(<Capital entity name> <entity name>) {
+
+        //implementation for adding entity into database
+   }
+}
+

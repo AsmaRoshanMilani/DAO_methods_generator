@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="668.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="227.0" layoutY="311.0" />
+      <TextField fx:id="erDiagramInput" layoutX="66.0" layoutY="196.0" prefHeight="36.0" prefWidth="418.0" promptText="XML file path" style="-fx-background-color: transparent;" />
+      <Line endX="317.0" endY="-1.52587890625E-5" layoutX="166.0" layoutY="231.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <TextField fx:id="projectName" layoutX="66.0" layoutY="240.0" prefHeight="36.0" prefWidth="418.0" promptText="Project Name" style="-fx-background-color: transparent;" />
+      <TextField fx:id="packageName" layoutX="66.0" layoutY="284.0" prefHeight="36.0" prefWidth="418.0" promptText="Package Name" style="-fx-background-color: transparent;" />
+      <TextField fx:id="outputDirectory" layoutX="66.0" layoutY="333.0" prefHeight="36.0" prefWidth="418.0" promptText="Output Directory" style="-fx-background-color: transparent;" />
+      <Line endX="317.0" endY="-1.52587890625E-5" layoutX="166.0" layoutY="277.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Line endX="317.0" endY="-1.52587890625E-5" layoutX="166.0" layoutY="321.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Line endX="317.0" endY="-1.52587890625E-5" layoutX="166.0" layoutY="369.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <Label layoutX="65.0" layoutY="73.0" prefHeight="82.0" prefWidth="467.0" style="-fx-font-size: 50px; -fx-font-family: &quot;Georgia&quot;;" text="CODE GENERATOR" textAlignment="CENTER" textFill="#3c89d1" textOverrun="CENTER_ELLIPSIS" />
+      <Button layoutX="268.0" layoutY="406.0" mnemonicParsing="false" onAction="#extractDataAndCreateDaoClasses" prefHeight="43.0" prefWidth="133.0" style="-fx-background-color: #3c89d1;" text="Generate" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
